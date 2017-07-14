@@ -241,7 +241,8 @@ Counts/sample summary:
  Std. dev.: 17108.171
  Sample Metadata Categories: None provided
  Observation Metadata Categories: taxonomy
-```
+````
+
 The median will be important for Step 9. Type `q` to get out of less.
 
 
