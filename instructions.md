@@ -244,6 +244,7 @@ Counts/sample summary:
 ```
 The median will be important for Step 9. Type `q` to get out of less.
 
+
 #### Step 7. Summarize communities by taxonomic composition 
 You can group OTUs by different taxonomic levels (phylum, class, family, etc.) with the workflow script `summarize_taxa_through_plots.py.` 
 **Note that this process depends directly on the method used to assign taxonomic information to OTUs**
@@ -261,6 +262,7 @@ MacQIIME train12-osx:QIIME_analysis $ summarize_taxa_through_plots.py -i otus/ot
 The script will generate new tables at various taxonomic levels (we’ll refer to these as taxonomy tables, which are different than OTU tables). For example, the genus-level table is located at `taxa_summary/otu_table_L5.txt` and is Figure 3A from the paper. Each taxonomy table contains the relative abundances of taxa within each sample.
 
 To view the resulting charts, open the area or bar chart html file located in the `taxa_summary/taxa_summary_plots` folder. The following chart shows the taxonomic assignments for each sample as a bar chart. Scroll down to the fifth plot in the `.html`. The kingdom, phylum, class, family, and genus will be listed. Each genus will be a different color. The most abundant is a beige. 
+
 **Place your mouse-over the colors in the plot to see which taxa and the associated percentage**:
 
 ![taxa figure](L5.jpg)
